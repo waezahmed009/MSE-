@@ -61,8 +61,23 @@ body::-webkit-scrollbar-thumb{
     letter-spacing:4px;
     color:#72dfff;
     margin-bottom:20px;
+    position:relative;
+    animation:titleFloat 0.5s ease forwards;
 }
 
+@keyframes titleFloat{
+
+    0%{
+        top:0;
+        opacity:1;
+    }
+
+    100%{
+        top:-60px;
+        opacity:0.85;
+    }
+
+}
 .hero h1{
     font-size:110px;
     font-weight:800;
