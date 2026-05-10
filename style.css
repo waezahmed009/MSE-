@@ -24,6 +24,20 @@ body::-webkit-scrollbar-thumb{
     border-radius:20px;
 }
 
+.reveal{
+    opacity:0;
+    transform:translateY(80px);
+    filter:blur(10px);
+    transition:all 1.2s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+    filter:blur(0);
+}
+
+
 .cursor-glow{
     position:fixed;
     width:250px;
