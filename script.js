@@ -390,8 +390,9 @@ function buildResultTable(entries) {
     let rows = entries.map(({ roll, data }) => `
         <tr>
             <td>${roll}</td>
-            <td>${data.name}</td>
+            <td>${data.namereal}</td>
             <td>${data.rollmate}</td>
+            <td>${data.name}</td>
             <td><a href="${data.whatsapp}" target="_blank">Chat</a></td>
             <td><a href="${data.facebook}" target="_blank">Profile</a></td>
         </tr>
@@ -402,8 +403,9 @@ function buildResultTable(entries) {
             <table>
                 <tr>
                     <th>Roll</th>
-                    <th>Name</th>
+                    <th>YOUR NAME</th>
                     <th>Rollmate</th>
+                    <th>Name</th>       
                     <th>WhatsApp</th>
                     <th>Facebook</th>
                 </tr>
