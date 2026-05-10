@@ -7,7 +7,7 @@ window.addEventListener('mousemove', (e) => {
 
 
 // =========================
-// ROLLMATE DATABASE
+// DATABASE
 // =========================
 
 const rollmates = {
@@ -15,78 +15,113 @@ const rollmates = {
     "2513001": {
         name: "Shihab",
         rollmate: "2413001",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513002": {
-        name: "Rahim",
+        name: "Rumman",
         rollmate: "2413002",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513003": {
-        name: "Karim",
+        name: "Rakib",
         rollmate: "2413003",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513004": {
-        name: "Sakib",
+        name: "Ahmed",
         rollmate: "2413004",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513005": {
-        name: "Tamim",
+        name: "Sakib",
         rollmate: "2413005",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513006": {
-        name: "Rakib",
+        name: "Tamim",
         rollmate: "2413006",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513007": {
-        name: "Rumman",
+        name: "Ahnaf",
         rollmate: "2413007",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513008": {
-        name: "Ahnaf",
+        name: "Karim",
         rollmate: "2413008",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513009": {
-        name: "Ahmed",
+        name: "Nayeem",
         rollmate: "2413009",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513010": {
-        name: "Rakib Ahmed",
+        name: "Shanto",
         rollmate: "2413010",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
+    },
+
+    "2513011": {
+        name: "Jahid",
+        rollmate: "2413011",
+        whatsapp: "#",
+        facebook: "#"
+    },
+
+    "2513012": {
+        name: "Rifat",
+        rollmate: "2413012",
+        whatsapp: "#",
+        facebook: "#"
+    },
+
+    "2513013": {
+        name: "Mahin",
+        rollmate: "2413013",
+        whatsapp: "#",
+        facebook: "#"
+    },
+
+    "2513014": {
+        name: "Tasin",
+        rollmate: "2413014",
+        whatsapp: "#",
+        facebook: "#"
+    },
+
+    "2513015": {
+        name: "Fahim",
+        rollmate: "2413015",
+        whatsapp: "#",
+        facebook: "#"
     },
 
     "2513061": {
         name: "Admin",
         rollmate: "ALL ACCESS",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "#",
+        facebook: "#"
     }
 
 };
@@ -111,14 +146,13 @@ function searchRoll() {
 
         let table = `
         <div class="result-card">
+
             <table>
 
                 <tr>
                     <th>Your Roll</th>
                     <th>Name</th>
                     <th>Rollmate</th>
-                    <th>WhatsApp</th>
-                    <th>Facebook</th>
                 </tr>
         `;
 
@@ -129,24 +163,13 @@ function searchRoll() {
                     <td>${key}</td>
                     <td>${rollmates[key].name}</td>
                     <td>${rollmates[key].rollmate}</td>
-
-                    <td>
-                        <a href="${rollmates[key].whatsapp}" target="_blank">
-                            Chat
-                        </a>
-                    </td>
-
-                    <td>
-                        <a href="${rollmates[key].facebook}" target="_blank">
-                            Profile
-                        </a>
-                    </td>
                 </tr>
             `;
         }
 
         table += `
             </table>
+
         </div>
         `;
 
@@ -168,26 +191,12 @@ function searchRoll() {
                     <th>Your Roll</th>
                     <th>Name</th>
                     <th>Rollmate</th>
-                    <th>WhatsApp</th>
-                    <th>Facebook</th>
                 </tr>
 
                 <tr>
                     <td>${roll}</td>
                     <td>${rollmates[roll].name}</td>
                     <td>${rollmates[roll].rollmate}</td>
-
-                    <td>
-                        <a href="${rollmates[roll].whatsapp}" target="_blank">
-                            Chat
-                        </a>
-                    </td>
-
-                    <td>
-                        <a href="${rollmates[roll].facebook}" target="_blank">
-                            Profile
-                        </a>
-                    </td>
                 </tr>
 
             </table>
@@ -203,13 +212,12 @@ function searchRoll() {
         </div>
         `;
     }
-
 }
 
 
 
 // =========================
-// SEARCH SENIOR BY NAME
+// SEARCH BY NAME
 // =========================
 
 function searchSenior() {
@@ -225,7 +233,6 @@ function searchSenior() {
     resultDiv.innerHTML = "";
 
 
-    // EMPTY INPUT
     if (input === "") {
 
         resultDiv.innerHTML = `
@@ -241,13 +248,10 @@ function searchSenior() {
     let found = false;
 
 
-    // LOOP THROUGH DATABASE
     for (const roll in rollmates) {
 
         const student = rollmates[roll];
 
-
-        // PARTIAL MATCH SEARCH
         if (
             student.name &&
             student.name.toLowerCase().includes(input)
@@ -269,25 +273,12 @@ function searchSenior() {
                     <strong>Rollmate:</strong> ${student.rollmate}
                 </p>
 
-                <br>
-
-                <a href="${student.whatsapp}" target="_blank">
-                    WhatsApp
-                </a>
-
-                <br><br>
-
-                <a href="${student.facebook}" target="_blank">
-                    Facebook
-                </a>
-
             </div>
             `;
         }
     }
 
 
-    // NO RESULT
     if (!found) {
 
         resultDiv.innerHTML = `
