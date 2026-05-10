@@ -15,7 +15,6 @@
 
   <div class="cursor-glow"></div>
 
-  <!-- Floating Particles -->
   <div class="particles">
     <span></span>
     <span></span>
@@ -27,136 +26,73 @@
     <span></span>
   </div>
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
   <section class="hero">
-
     <div class="overlay"></div>
-
     <div class="hero-content">
       <p class="mini-title">RUET • MATERIALS SCIENCE & ENGINEERING</p>
-
-      <h1>
-        MSE <span>24</span>
-      </h1>
-
+      <h1>MSE <span>25</span></h1>
       <p class="hero-text">
         Find your rollmate. Connect with seniors.
         Build memories with Materials Science & Engineering.
       </p>
-
-      <a href="#finder" class="hero-btn">
-        Find Rollmate
-      </a>
+      <a href="#finder" class="hero-btn">Find Rollmate</a>
     </div>
-
-    <!-- Floating Stickers -->
-  
-
   </section>
 
-
-  <!-- ABOUT SECTION -->
+  <!-- ABOUT -->
   <section class="about">
-
     <div class="section-title">
       <h2>WELCOME TO MSE</h2>
-      <p>
-        A department built with memories, chaos, friendship and engineering.
-      </p>
+      <p>A department built with memories, chaos, friendship and engineering.</p>
     </div>
-
     <div class="about-grid">
-
       <div class="glass-card">
         <h3>Materials Science</h3>
-        <p>
-          Crystals, metals, polymers, semiconductors, nanotechnology and endless possibilities.
-        </p>
+        <p>Crystals, metals, polymers, semiconductors, nanotechnology and endless possibilities.</p>
       </div>
-
       <div class="glass-card">
         <h3>MSE'25</h3>
-        <p>
-          Start a journey of labs, assignments,  presentations and unforgettable memories.
-        </p>
+        <p>Start a journey of labs, assignments, presentations and unforgettable memories.</p>
       </div>
-
       <div class="glass-card">
-        <h3>Rollmate </h3>
-        <p>
-         Connect with your immediate rollmate.
-        </p>
+        <h3>Rollmate</h3>
+        <p>Connect with your immediate rollmate.</p>
       </div>
-
     </div>
-
   </section>
-
 
   <!-- ROLLMATE FINDER -->
   <section class="finder" id="finder">
-
     <div class="section-title">
       <h2>FIND YOUR ROLLMATE</h2>
-      <p>
-        Enter your roll number below.
-      </p>
+      <p>Enter your roll number below.</p>
     </div>
-
     <div class="search-box">
-      <input
-        type="text"
-        id="rollInput"
-        placeholder="Enter Your Roll Number"
-      />
-
-      <button onclick="searchRoll()">
-        Search
-      </button>
+      <input type="text" id="rollInput" placeholder="Enter Your Roll Number" />
+      <button onclick="searchRoll()">Search</button>
     </div>
-
     <div id="result"></div>
-
   </section>
 
-
-  <!-- SENIORS SECTION -->
-  <section class="seniors">
-
+  <!-- SENIORS -->
+  <section class="seniors" id="seniors">
     <div class="section-title">
       <h2>SEARCH YOUR SENIOR</h2>
-      <p>
-        Search by name.
-      </p>
+      <p>Search by name — partial names work too.</p>
     </div>
-
     <div class="search-box">
-      <input
-        type="text"
-        id="seniorInput"
-        placeholder="Search Your Senior"
-      />
-
-      <button onclick="searchSenior()">
-        Search
-      </button>
+      <input type="text" id="seniorInput" placeholder="e.g. Rumman, Tanvir, Sadia..." />
+      <button onclick="searchSenior()">Search</button>
     </div>
-
-    <div class="senior-grid" id="seniorResult"></div>
-
+    <div id="seniorResult"></div>
   </section>
-
-
-
 
   <!-- FOOTER -->
   <footer>
-    <h2>MSE 24</h2>
-    <p>
-      Materials Science & Engineering • RUET
-    </p>
+    <h2>MSE 25</h2>
+    <p>Materials Science & Engineering • RUET</p>
   </footer>
-
 
   <script src="script.js"></script>
 </body>
