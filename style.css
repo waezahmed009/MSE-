@@ -35,6 +35,8 @@ body::-webkit-scrollbar-thumb{
     z-index:1;
 }
 
+/* ── HERO ─────────────────────────────────────────────────── */
+
 .hero{
     min-height:100vh;
     position:relative;
@@ -45,8 +47,8 @@ body::-webkit-scrollbar-thumb{
     overflow:hidden;
     padding:40px 20px;
     background:
-    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('images/mse-road.jpg');
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('images/mse-road.jpg');
     background-size:cover;
     background-position:center;
 }
@@ -62,6 +64,7 @@ body::-webkit-scrollbar-thumb{
     color:#72dfff;
     margin-bottom:20px;
 }
+
 .hero h1{
     font-size:110px;
     font-weight:800;
@@ -96,17 +99,19 @@ body::-webkit-scrollbar-thumb{
     box-shadow:0 0 25px #00bfff;
 }
 
-
 @keyframes float{
-    0%{
-        transform:translateY(0px);
-    }
-    50%{
-        transform:translateY(-25px);
-    }
-    100%{
-        transform:translateY(0px);
-    }
+    0%  { transform:translateY(0px); }
+    50% { transform:translateY(-25px); }
+    100%{ transform:translateY(0px); }
+}
+
+/* ── SECTION SHARED ───────────────────────────────────────── */
+/* FIX: was ".about, .finder, .seniors," with trailing comma and no properties */
+
+.about,
+.finder,
+.seniors{
+    padding:100px 60px;   /* gives each section proper breathing room */
 }
 
 .section-title{
@@ -123,10 +128,7 @@ body::-webkit-scrollbar-thumb{
     color:#c7c7c7;
 }
 
-.about,
-.finder,
-.seniors,
-
+/* ── ABOUT CARDS ──────────────────────────────────────────── */
 
 .about-grid{
     display:grid;
@@ -153,6 +155,8 @@ body::-webkit-scrollbar-thumb{
     color:#72dfff;
 }
 
+/* ── SEARCH BOX ───────────────────────────────────────────── */
+
 .search-box{
     display:flex;
     justify-content:center;
@@ -171,6 +175,11 @@ body::-webkit-scrollbar-thumb{
     color:white;
     outline:none;
     font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+.search-box input::placeholder{
+    color:rgba(255,255,255,0.4);
 }
 
 .search-box button{
@@ -180,22 +189,26 @@ body::-webkit-scrollbar-thumb{
     background:linear-gradient(45deg,#00bfff,#005eff);
     color:white;
     font-weight:600;
+    font-family:'Poppins',sans-serif;
     cursor:pointer;
     transition:0.4s;
 }
 
 .search-box button:hover{
     transform:scale(1.05);
+    box-shadow:0 0 20px rgba(0,191,255,0.4);
 }
 
+/* ── RESULT TABLE ─────────────────────────────────────────── */
+
 .result-card{
-    max-width:900px;
+    max-width:950px;
     margin:auto;
     background:rgba(255,255,255,0.05);
     border:1px solid rgba(255,255,255,0.1);
     border-radius:30px;
     padding:30px;
-    overflow:auto;
+    overflow-x:auto;   /* horizontal scroll on small screens instead of overflow */
 }
 
 .result-card table{
@@ -203,25 +216,62 @@ body::-webkit-scrollbar-thumb{
     border-collapse:collapse;
 }
 
-.result-card th,
+.result-card th{
+    padding:18px;
+    border-bottom:1px solid rgba(0,191,255,0.3);
+    text-align:left;
+    color:#72dfff;
+    font-size:14px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
 .result-card td{
     padding:18px;
-    border-bottom:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.07);
     text-align:left;
+    font-size:15px;
+}
+
+.result-card tr:last-child td{
+    border-bottom:none;
+}
+
+.result-card tr:hover td{
+    background:rgba(0,191,255,0.05);
 }
 
 .result-card a{
     color:#72dfff;
     text-decoration:none;
+    font-weight:600;
+    transition:0.2s;
 }
+
+.result-card a:hover{
+    color:#00bfff;
+    text-shadow:0 0 8px #00bfff;
+}
+
+/* ── ERROR ────────────────────────────────────────────────── */
 
 .error{
     text-align:center;
     color:#ff5b5b;
-    font-size:24px;
+    font-size:22px;
     font-weight:700;
+    padding:40px;
 }
 
+/* ── SENIORS RESULT ───────────────────────────────────────── */
+/* FIX: seniorResult was inside a .senior-grid which forced card layout.
+   Now it's a plain block that just holds the result-card table. */
+
+#seniorResult{
+    display:block;
+}
+
+/* Keep .senior-grid in case you want to use card layout elsewhere */
 .senior-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -238,18 +288,32 @@ body::-webkit-scrollbar-thumb{
 
 .senior-card:hover{
     transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,191,255,0.15);
 }
 
 .senior-card h3{
     margin-bottom:10px;
+    color:#72dfff;
 }
 
+/* ── FOOTER ───────────────────────────────────────────────── */
 
 footer{
     text-align:center;
     padding:60px 20px;
     border-top:1px solid rgba(255,255,255,0.1);
 }
+
+footer h2{
+    color:#72dfff;
+    margin-bottom:10px;
+}
+
+footer p{
+    color:#c7c7c7;
+}
+
+/* ── PARTICLES ────────────────────────────────────────────── */
 
 .particles span{
     position:fixed;
@@ -261,23 +325,21 @@ footer{
     opacity:0.3;
 }
 
-.particles span:nth-child(1){left:10%; animation-duration:12s;}
-.particles span:nth-child(2){left:20%; animation-duration:18s;}
-.particles span:nth-child(3){left:30%; animation-duration:15s;}
-.particles span:nth-child(4){left:40%; animation-duration:20s;}
-.particles span:nth-child(5){left:60%; animation-duration:13s;}
-.particles span:nth-child(6){left:70%; animation-duration:17s;}
-.particles span:nth-child(7){left:80%; animation-duration:14s;}
-.particles span:nth-child(8){left:90%; animation-duration:19s;}
+.particles span:nth-child(1){ left:10%; animation-duration:12s; }
+.particles span:nth-child(2){ left:20%; animation-duration:18s; }
+.particles span:nth-child(3){ left:30%; animation-duration:15s; }
+.particles span:nth-child(4){ left:40%; animation-duration:20s; }
+.particles span:nth-child(5){ left:60%; animation-duration:13s; }
+.particles span:nth-child(6){ left:70%; animation-duration:17s; }
+.particles span:nth-child(7){ left:80%; animation-duration:14s; }
+.particles span:nth-child(8){ left:90%; animation-duration:19s; }
 
 @keyframes particle{
-    0%{
-        transform:translateY(100vh);
-    }
-    100%{
-        transform:translateY(-100vh);
-    }
+    0%  { transform:translateY(100vh); }
+    100%{ transform:translateY(-100vh); }
 }
+
+/* ── RESPONSIVE ───────────────────────────────────────────── */
 
 @media(max-width:900px){
 
@@ -289,16 +351,30 @@ footer{
         font-size:17px;
     }
 
-    .sticker1,
-    .sticker2,
-    .sticker3{
-        width:130px;
-        opacity:0.5;
-    }
-
     .section-title h2{
         font-size:36px;
     }
 
- 
+    .about,
+    .finder,
+    .seniors{
+        padding:70px 20px;
+    }
+
+    .result-card th,
+    .result-card td{
+        padding:12px 10px;
+        font-size:13px;
+    }
+}
+
+@media(max-width:500px){
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .search-box input{
+        width:100%;
+    }
 }
