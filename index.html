@@ -1,163 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MSE 24 | Rollmate</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css" />
+    <title>MSE Rollmate</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-  <div class="cursor-glow"></div>
+    <!-- NAVBAR -->
 
-  <!-- Floating Particles -->
-  <div class="particles">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+    <nav class="navbar">
 
-  <!-- HERO SECTION -->
-  <section class="hero">
+        <div class="logo">
+            MSE 24
+        </div>
 
-    <div class="overlay"></div>
+        <a href="#finder" class="nav-btn">
+            Find Rollmate
+        </a>
 
-    <div class="hero-content">
-      <p class="mini-title">RUET • MATERIALS SCIENCE & ENGINEERING</p>
-
-      <h1>
-        MSE <span>24</span>
-      </h1>
-
-      <p class="hero-text">
-        Find your rollmate. Connect with seniors.
-        Build memories with Materials Science & Engineering.
-      </p>
-
-      <a href="#finder" class="hero-btn">
-        Find Rollmate
-      </a>
-    </div>
-
-    <!-- Floating Stickers -->
-  
-
-  </section>
+    </nav>
 
 
-  <!-- ABOUT SECTION -->
-  <section class="about reveal">
+    <!-- HERO SECTION -->
 
-    <div class="section-title">
-      <h2>WELCOME TO MSE</h2>
-      <p>
-        A department built with memories, chaos, friendship and engineering.
-      </p>
-    </div>
+    <section class="hero">
 
-    <div class="about-grid">
+        <div class="hero-overlay"></div>
 
-      <div class="glass-card">
-        <h3>Materials Science</h3>
+        <div class="floating floating1"></div>
+        <div class="floating floating2"></div>
+        <div class="floating floating3"></div>
+        <div class="floating floating4"></div>
+
+        <div class="hero-content">
+
+            <h1>
+                WELCOME TO MSE
+            </h1>
+
+            <p>
+                A department built with memories, chaos, friendship and engineering.
+            </p>
+
+            <a href="#finder" class="hero-btn">
+                Explore Rollmates
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about">
+
+        <div class="section-title">
+            MATERIALS SCIENCE & ENGINEERING
+        </div>
+
+        <div class="about-box">
+
+            <div class="about-card">
+                <h3>24 Series</h3>
+                <p>
+                    The seniors who survived assignments, labs, presentations and chaos.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>25 Series</h3>
+                <p>
+                    Juniors can search their roll and instantly find their rollmate.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>MSE Spirit</h3>
+                <p>
+                    Engineering is temporary. Brotherhood stays forever.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINDER SECTION -->
+
+    <section class="finder" id="finder">
+
+        <div class="section-title">
+            FIND YOUR ROLLMATE
+        </div>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="rollInput"
+                placeholder="Enter Your Roll Number"
+            >
+
+            <button onclick="findRollmate()">
+                Search
+            </button>
+
+        </div>
+
+
+        <div id="result" class="result-card">
+
+            <h2>
+                Your Rollmate Will Appear Here
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- SENIORS SECTION -->
+
+    <section class="seniors">
+
+        <div class="section-title">
+            SEARCH SENIORS
+        </div>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="seniorInput"
+                placeholder="Search Senior By Name"
+            >
+
+            <button onclick="findSenior()">
+                Search
+            </button>
+
+        </div>
+
+
+        <div id="seniorResult" class="result-card">
+
+            <h2>
+                Senior Information Will Appear Here
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>
+            MSE 24
+        </h2>
+
         <p>
-          Crystals, metals, polymers, semiconductors, nanotechnology and endless possibilities.
+            Built for juniors with chaos, memories and engineering.
         </p>
-      </div>
 
-      <div class="glass-card">
-        <h3>Batch 24</h3>
-        <p>
-          A journey of labs, assignments, tea stalls, presentations and unforgettable memories.
-        </p>
-      </div>
-
-      <div class="glass-card">
-        <h3>Rollmate System</h3>
-        <p>
-          Juniors can search their roll and instantly find their rollmate.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
+    </footer>
 
 
-  <!-- ROLLMATE FINDER -->
-<section class="finder reveal" id="finder">
+    <script src="script.js"></script>
 
-    <div class="section-title">
-      <h2>FIND YOUR ROLLMATE</h2>
-      <p>
-        Enter your roll number below.
-      </p>
-    </div>
-
-    <div class="search-box">
-      <input
-        type="text"
-        id="rollInput"
-        placeholder="Enter Your Roll Number"
-      />
-
-      <button onclick="searchRoll()">
-        Search
-      </button>
-    </div>
-
-    <div id="result"></div>
-
-  </section>
-
-
-  <!-- SENIORS SECTION -->
-  <section class="seniors reveal">
-
-    <div class="section-title">
-      <h2>SEARCH YOUR SENIOR</h2>
-      <p>
-        Search by name.
-      </p>
-    </div>
-
-    <div class="search-box">
-      <input
-        type="text"
-        id="seniorInput"
-        placeholder="Search Your Senior"
-      />
-
-      <button onclick="searchSenior()">
-        Search
-      </button>
-    </div>
-
-    <div class="senior-grid" id="seniorResult"></div>
-
-  </section>
-
-
-
-
-  <!-- FOOTER -->
-  <footer>
-    <h2>MSE 24</h2>
-    <p>
-      Materials Science & Engineering • RUET
-    </p>
-  </footer>
-
-
-  <script src="script.js"></script>
 </body>
 </html>
