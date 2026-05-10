@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSE 24 | Rollmate</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor-glow"></div>
+
+  <!-- Floating Particles -->
+  <div class="particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <p class="mini-title">RUET • MATERIALS SCIENCE & ENGINEERING</p>
+
+      <h1>
+        MSE <span>24</span>
+      </h1>
+
+      <p class="hero-text">
+        Find your rollmate. Connect with seniors.
+        Build memories with Materials Science & Engineering.
+      </p>
+
+      <a href="#finder" class="hero-btn">
+        Find Rollmate
+      </a>
+    </div>
+
+    <!-- Floating Stickers -->
+  
+
+  </section>
+
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+
+    <div class="section-title">
+      <h2>WELCOME TO MSE</h2>
+      <p>
+        A department built with memories, chaos, friendship and engineering.
+      </p>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="glass-card">
+        <h3>Materials Science</h3>
+        <p>
+          Crystals, metals, polymers, semiconductors, nanotechnology and endless possibilities.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Batch 24</h3>
+        <p>
+          A journey of labs, assignments, tea stalls, presentations and unforgettable memories.
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Rollmate System</h3>
+        <p>
+          Juniors can search their roll and instantly find their rollmate.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ROLLMATE FINDER -->
+  <section class="finder" id="finder">
+
+    <div class="section-title">
+      <h2>FIND YOUR ROLLMATE</h2>
+      <p>
+        Enter your roll number below.
+      </p>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="rollInput"
+        placeholder="Enter Your Roll Number"
+      />
+
+      <button onclick="searchRoll()">
+        Search
+      </button>
+    </div>
+
+    <div id="result"></div>
+
+  </section>
+
+
+  <!-- SENIORS SECTION -->
+  <section class="seniors">
+
+    <div class="section-title">
+      <h2>SEARCH YOUR SENIOR</h2>
+      <p>
+        Search by name.
+      </p>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="seniorInput"
+        placeholder="Search Your Senior"
+      />
+
+      <button onclick="searchSenior()">
+        Search
+      </button>
+    </div>
+
+    <div class="senior-grid" id="seniorResult"></div>
+
+  </section>
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <h2>MSE 24</h2>
+    <p>
+      Materials Science & Engineering • RUET
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
