@@ -9,6 +9,7 @@ window.addEventListener('mousemove', (e)=>{
 const rollmates = {
 
     "2513001": {
+        NAME    : "Shihab",
         rollmate: "2413001",
         whatsapp: "YOUR_WHATSAPP_LINK",
         facebook: "YOUR_FACEBOOK_LINK"
@@ -345,6 +346,7 @@ const rollmates = {
     },
 
     "2513057": {
+         NAME    : "Rumman",
         rollmate: "2413057",
         whatsapp: "YOUR_WHATSAPP_LINK",
         facebook: "YOUR_FACEBOOK_LINK"
@@ -453,46 +455,425 @@ function searchRoll(){
 
 const seniors = [
 
-    {
-        name:'Your Name',
-        quote:'MSE never sleeps.',
-        facebook:'YOUR_FACEBOOK_LINK',
-        whatsapp:'YOUR_WHATSAPP_LINK'
+     "2513001": {
+        NAME    : "Shihab",
+        rollmate: "2413001",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
     },
 
-    {
-        name:'Another Senior',
-        quote:'Trust the process.',
-        facebook:'YOUR_FACEBOOK_LINK',
-        whatsapp:'YOUR_WHATSAPP_LINK'
+    "2513002": {
+        rollmate: "2413002",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513003": {
+        rollmate: "2413003",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513004": {
+        rollmate: "2413004",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513005": {
+        rollmate: "2413005",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513006": {
+        rollmate: "2413006",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513007": {
+        rollmate: "2413007",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513008": {
+        rollmate: "2413008",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513009": {
+        rollmate: "2413009",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513010": {
+        rollmate: "2413010",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513011": {
+        rollmate: "2413011",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513012": {
+        rollmate: "2413012",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513013": {
+        rollmate: "2413013",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513014": {
+        rollmate: "2413014",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513015": {
+        rollmate: "2413015",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513016": {
+        rollmate: "2413016",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513017": {
+        rollmate: "2413017",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513018": {
+        rollmate: "2413018",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513019": {
+        rollmate: "2413019",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513020": {
+        rollmate: "2413020",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513021": {
+        rollmate: "2413021",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513022": {
+        rollmate: "2413022",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513023": {
+        rollmate: "2413023",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513024": {
+        rollmate: "2413024",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513025": {
+        rollmate: "2413025",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513026": {
+        rollmate: "2413026",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513027": {
+        rollmate: "2413027",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513028": {
+        rollmate: "2413028",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513029": {
+        rollmate: "2413029",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513030": {
+        rollmate: "2413030",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513031": {
+        rollmate: "2413031",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513032": {
+        rollmate: "2413032",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513033": {
+        rollmate: "2413033",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513034": {
+        rollmate: "2413034",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513035": {
+        rollmate: "2413035",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513036": {
+        rollmate: "2413036",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513037": {
+        rollmate: "2413037",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513038": {
+        rollmate: "2413038",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513039": {
+        rollmate: "2413039",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513040": {
+        rollmate: "2413040",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513041": {
+        rollmate: "2413041",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513042": {
+        rollmate: "2413042",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513043": {
+        rollmate: "2413043",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513044": {
+        rollmate: "2413044",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513045": {
+        rollmate: "2413045",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513046": {
+        rollmate: "2413046",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513047": {
+        rollmate: "2413047",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513048": {
+        rollmate: "2413048",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513049": {
+        rollmate: "2413049",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513050": {
+        rollmate: "2413050",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513051": {
+        rollmate: "2413051",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513052": {
+        rollmate: "2413052",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513053": {
+        rollmate: "2413053",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513054": {
+        rollmate: "2413054",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513055": {
+        rollmate: "2413055",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513056": {
+        rollmate: "2413056",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513057": {
+         NAME   : "Rumman",
+        rollmate: "2413057",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513058": {
+        rollmate: "2413058",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513059": {
+        rollmate: "2413059",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513060": {
+        rollmate: "2413060",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
+    },
+
+    "2513061": {
+        rollmate: "ALL ACCESS",
+        whatsapp: "YOUR_WHATSAPP_LINK",
+        facebook: "YOUR_FACEBOOK_LINK"
     }
+
 
 ];
 
 
-function searchSenior(){
+function searchSenior() {
 
-    const value = document.getElementById('seniorInput').value.toLowerCase();
+    const input = document
+        .getElementById("seniorInput")
+        .value
+        .toLowerCase();
 
-    const container = document.getElementById('seniorResult');
+    const resultDiv = document.getElementById("seniorResult");
 
-    container.innerHTML = '';
+    resultDiv.innerHTML = "";
 
-    const filtered = seniors.filter(senior =>
-        senior.name.toLowerCase().includes(value)
-    );
+    let found = false;
 
+    for (const roll in rollmates) {
 
-    if(filtered.length === 0){
+        const student = rollmates[roll];
 
-        container.innerHTML = `
-        <div class="error">
-        Sorry, no match found.
-        </div>
-        `;
+        if (student.name.toLowerCase().includes(input)) {
 
-        return;
+            found = true;
+
+            resultDiv.innerHTML += `
+                <div class="card">
+                    <h2>${student.name}</h2>
+                    <p>Your Roll: ${roll}</p>
+                    <p>Rollmate: ${student.rollmate}</p>
+
+                    <a href="${student.whatsapp}" target="_blank">
+                        WhatsApp
+                    </a>
+
+                    <br>
+
+                    <a href="${student.facebook}" target="_blank">
+                        Facebook
+                    </a>
+
+                    <hr>
+                </div>
+            `;
+        }
     }
+
+    if (!found) {
+        resultDiv.innerHTML = "<p>No matching name found</p>";
+    }
+}
 
 
     filtered.forEach(senior=>{
