@@ -523,7 +523,7 @@ function searchSenior(){
 
 const reveals = document.querySelectorAll('.reveal');
 
-window.addEventListener('scroll', ()=>{
+function revealSections(){
 
     reveals.forEach((element)=>{
 
@@ -533,7 +533,14 @@ window.addEventListener('scroll', ()=>{
         if(elementTop < windowHeight - 100){
             element.classList.add('active');
         }
+        else{
+            element.classList.remove('active');
+        }
 
     });
 
-});
+}
+
+window.addEventListener('scroll', revealSections);
+
+revealSections();
