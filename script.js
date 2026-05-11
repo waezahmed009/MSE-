@@ -23,7 +23,7 @@ const rollmates = {
         namereal:"ADNAN SAMI",
         name: "FAHIM MANMUD",
         rollmate: "2413002",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801932782902",
         facebook: "https://www.facebook.com/share/1AvojMCvJ4/"
     },
     "2513003": {
@@ -100,7 +100,7 @@ const rollmates = {
         namereal:"MD SALMAN SABIT",
         name: "JIHAD SAYEM",
         rollmate: "2413013",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801871308283",
         facebook: "https://www.facebook.com/share/1B2mk3x544/"
     },
     "2513014": {
@@ -191,7 +191,7 @@ const rollmates = {
         namereal:"SHEIKH MOHAMMAD MAHADI HASAN",
         name: "HOSSEN RAFID",
         rollmate: "2413026",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801835468579",
         facebook: "https://www.facebook.com/mdrba2"
     },
     "2513027": {
@@ -289,7 +289,7 @@ const rollmates = {
         namereal:"MD IMAM HASAN JEWEL",
         name: "SURJOTOPA ROY SRAYA",
         rollmate: "2413040",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801792524674",
         facebook: "https://www.facebook.com/share/18bepKQKnG/"
     },
     "2513041": {
@@ -352,7 +352,7 @@ const rollmates = {
         namereal:"ZUANA TASHRIN",
         name: "RIAL BISWAS",
         rollmate: "2413049",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801306522570",
         facebook: "https://www.facebook.com/share/1B8DUtDXTj/"
     },
     "2513050": {
