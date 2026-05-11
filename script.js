@@ -189,10 +189,10 @@ const rollmates = {
     },
     "2513026": {
         namereal:"SHEIKH MOHAMMAD MAHADI HASAN",
-        name: "Asif Iqbal",
+        name: "HOSSEN RAFID",
         rollmate: "2413026",
         whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        facebook: "https://www.facebook.com/mdrba2"
     },
     "2513027": {
         namereal:"MD. SALAH UDDIN MIKDAD",
@@ -401,21 +401,21 @@ const rollmates = {
         namereal:"UTSHA BHOWMIK",
         name: "SADMAN SAJID SPORSHO",
         rollmate: "2413056",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801713540059",
         facebook: "https://www.facebook.com/sadman.sajid.483999"
     },
     "2513057": {
         namereal:"MD. HASIBUL HASAN",
         name: "Waez Ahmed Rumman",
         rollmate: "2413057",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801877142168",
         facebook: "https://www.facebook.com/waezahmedrumman.zar"
     },
     "2513058": {
         namereal:"MST. MODINA MONAWARA",
         name: "MANZARUL CHOWDHURY",
         rollmate: "2413058",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801891983291",
         facebook: "https://www.facebook.com/manzarul.hasan.chowdhury"
     },
     "2513059": {
