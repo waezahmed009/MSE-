@@ -56,9 +56,9 @@ const rollmates = {
     },
     "2513007": {
         namereal:"MD. MIRAJ ALI",
-        name: "ABID HASAN",
+        name: "ABID HASSAN",
         rollmate: "2413007",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801794132561",
         facebook: "https://www.facebook.com/share/1Dh1ToBrjc/"
     },
     "2513008": {
