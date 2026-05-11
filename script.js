@@ -114,7 +114,7 @@ const rollmates = {
         namereal:"MAHBUBA ISLAM",
         name: "MD MONIRUZZAMAN",
         rollmate: "2413015",
-        whatsapp: "YOUR_WHATSAPP_LINK",
+        whatsapp: "https://wa.me/8801827573175",
         facebook: "https://www.facebook.com/share/17VvxRPHvs/"
     },
     "2513016": {
