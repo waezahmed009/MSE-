@@ -189,7 +189,7 @@ const rollmates = {
     },
     "2513026": {
         namereal:"SHEIKH MOHAMMAD MAHADI HASAN",
-        name: "HOSSEN RAFID",
+        name: "RAFID BIN AKHTER",
         rollmate: "2413026",
         whatsapp: "https://wa.me/8801835468579",
         facebook: "https://www.facebook.com/mdrba2"
