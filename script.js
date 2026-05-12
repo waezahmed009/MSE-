@@ -406,7 +406,7 @@ const rollmates = {
     },
     "2513057": {
         namereal:"MD. HASIBUL HASAN",
-        name: "Waez Ahmed Rumman",
+        name: "WAEZ AHMED RUMMAN",
         rollmate: "2413057",
         whatsapp: "https://wa.me/8801877142168",
         facebook: "https://www.facebook.com/waezahmedrumman.zar"
