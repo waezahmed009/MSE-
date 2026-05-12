@@ -133,10 +133,10 @@ const rollmates = {
     },
     "2513018": {
         namereal:"SOURAV KUMAR JOY",
-        name: "NOT FOUND",
+        name: "AHMAD MUNIM KHAN",
         rollmate: "2413018",
-        whatsapp: "YOUR_WHATSAPP_LINK",
-        facebook: "YOUR_FACEBOOK_LINK"
+        whatsapp: "https://wa.me/8801312885708",
+        facebook: "https://www.facebook.com/share/1BCsVR2BWP/"
     },
     "2513019": {
         namereal:"ISHTIAK HOSSAIN NOMAN",
