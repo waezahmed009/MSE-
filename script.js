@@ -192,7 +192,7 @@ const rollmates = {
         name: "RAFID BIN AKHTER",
         rollmate: "2413026",
         whatsapp: "https://wa.me/8801835468579",
-        facebook: "https://www.facebook.com/mdrba2"
+        facebook: "YOUR_FACEBOOK_LINK"
     },
     "2513027": {
         namereal:"MD. SALAH UDDIN MIKDAD",
