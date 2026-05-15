@@ -481,6 +481,9 @@ function buildResultTable(entries) {
 function searchRoll() {
     const roll = document.getElementById('rollInput').value.trim();
     const result = document.getElementById('result');
+    gtag('event', 'search_roll', {
+    search_term: roll
+});
 
     // Admin roll — show everyone
     if (roll === '2513061') {
@@ -509,6 +512,9 @@ document.getElementById('rollInput').addEventListener('keydown', (e) => {
 function searchSenior() {
     const input = document.getElementById('seniorInput').value.trim().toLowerCase();
     const resultDiv = document.getElementById('seniorResult');
+    gtag('event', 'search_senior', {
+    search_term: input
+});
 
     if (!input) {
         resultDiv.innerHTML = `<div class="error">Please enter a name to search.</div>`;
